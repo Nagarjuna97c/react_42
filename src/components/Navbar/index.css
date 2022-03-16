@@ -1,0 +1,48 @@
+.nav-bar {
+  height: 20vh;
+  min-height: 80px;
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.nav-bar-dark {
+  background-color: #333333;
+}
+
+.logo,
+.theme-image {
+  height: 40px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.link-light {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* LIGHT THEME */
+.nav-bar-light {
+  background-color: #ffffff;
+}
+
+.link {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
